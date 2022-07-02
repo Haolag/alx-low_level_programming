@@ -18,30 +18,27 @@ int n;
 
         n = rand() - RAND_MAX / 2;
 
-        if (n > 0)
-
+        if (n == 0)
         {
-
-        printf("%d is %s\n", n, "positive");
-
+        printf("%i is zero\n", n);
         }
+
+        
 
         else if (n < 0)
 
         {
 
-        printf("%d is %s\n", n, "negative");
+        printf("%d is negative\n", n);
 
         }
+
 
         else
-
         {
-
-        printf("%d is %s\n", n, "zero");
-
+        printf("%i is positive\n", n);
         }
-
+        
         return (0);
 
 }
